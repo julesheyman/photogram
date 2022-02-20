@@ -7,6 +7,8 @@ class LikeResource < ApplicationResource
 
   # Direct associations
 
+  belongs_to :photo
+
   # Indirect associations
 
 end
