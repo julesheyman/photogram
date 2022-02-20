@@ -9,6 +9,8 @@ class PhotoResource < ApplicationResource
 
   # Direct associations
 
+  belongs_to :user
+
   has_many   :comments
 
   has_many   :likes
