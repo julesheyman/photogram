@@ -4,10 +4,10 @@ class Photo < ApplicationRecord
   belongs_to :user
 
   has_many   :comments,
-             :dependent => :destroy
+             dependent: :destroy
 
   has_many   :likes,
-             :dependent => :destroy
+             dependent: :destroy
 
   # Indirect associations
 
@@ -18,5 +18,4 @@ class Photo < ApplicationRecord
   def to_s
     date
   end
-
 end

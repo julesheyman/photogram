@@ -10,5 +10,4 @@ class FollowRequest < ApplicationRecord
   def to_s
     sender_id
   end
-
 end

@@ -8,5 +8,4 @@ class FollowRequestResource < ApplicationResource
   # Direct associations
 
   # Indirect associations
-
 end

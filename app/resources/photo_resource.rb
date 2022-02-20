@@ -16,5 +16,4 @@ class PhotoResource < ApplicationResource
   has_many   :likes
 
   # Indirect associations
-
 end

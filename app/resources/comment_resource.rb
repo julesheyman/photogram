@@ -13,5 +13,4 @@ class CommentResource < ApplicationResource
   belongs_to :photo
 
   # Indirect associations
-
 end

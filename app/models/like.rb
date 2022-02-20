@@ -14,5 +14,4 @@ class Like < ApplicationRecord
   def to_s
     photo.to_s
   end
-
 end
